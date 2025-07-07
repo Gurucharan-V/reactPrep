@@ -1,0 +1,32 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "react by gc",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Gurucharan-V/namasteReact.git"
+  },
+  "keywords": [],
+  "author": "gc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gurucharan-V/namasteReact/issues"
+  },
+  "homepage": "https://github.com/Gurucharan-V/namasteReact#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions"
+  ]
+
+}
