@@ -2,19 +2,25 @@
   "name": "gcr",
   "version": "1.0.0",
   "description": "react prep for gc",
-  "homepage": "https://github.com/Gurucharan-V/namasteReact#readme",
+  "homepage": "https://github.com/Gurucharan-V/reactPrep.git",
   "bugs": {
-    "url": "https://github.com/Gurucharan-V/namasteReact/issues"
+    "url": "https://github.com/Gurucharan-V/reactPrep.git"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gurucharan-V/namasteReact.git"
+    "url": "git+https://github.com/Gurucharan-V/reactPrep.git"
   },
   "license": "ISC",
   "author": "gc",
   "type": "commonjs",
-  "main": "app.js",
   "scripts": {
     "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   }
 }
