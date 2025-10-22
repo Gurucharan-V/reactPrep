@@ -83,3 +83,14 @@ ul > li > a {
   margin-top: 20px;
   border-radius: 4px;
 }
+
+.widgets {
+  border: black 2px solid;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.widgets > button {
+  margin : 10px;
+
+}

@@ -1,10 +1,12 @@
+import { CLOUD_CDN_URL } from "../utils/common";
+
 const Rescards = (props) => {
     const {name, avgRating, cuisines, sla, cloudinaryImageId, costForTwo, areaName} = props.info;
   return (
     <div className="res-cards">
       <img
         src={
-          "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + cloudinaryImageId
+           CLOUD_CDN_URL + cloudinaryImageId
         }
       />
       <h3>{name}</h3>
