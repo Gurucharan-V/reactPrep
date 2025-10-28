@@ -1,0 +1,10 @@
+notes/ 
+Interview\prep/
+node_modules/
+.DS_Store
+.env
+.vscode/
+.idea/
+*.log
+dist/
+.parcel-cache/

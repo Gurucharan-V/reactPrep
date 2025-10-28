@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build" : "parcel build index.html",
+    "test" : "jest"
+  },
+  "browserlists":[
+    "last 2 versions"
+  ]
+}
